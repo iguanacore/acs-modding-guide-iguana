@@ -9,6 +9,8 @@ A comprehensive resource on modifying Amazing Cultivation Simulator. An attempt 
 
 **Backup your data before doing anything.**
 
+**Don't upload anything if you lack permission from the original author.**
+
 # Introduction to modding
 
 ACS can be extensively modded. For simpler functions, the Realms Palace with its Content Editor is a good introduction to modding. Custom items, reincarnators, as well as blueprints are very doable without touching a single file. But if you want to do anything more complex than that, the RP/CE isn’t capable of it. If you want to start with the Realms Palace, there are existing resources.
