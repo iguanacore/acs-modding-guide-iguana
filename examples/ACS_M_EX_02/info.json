@@ -1,0 +1,9 @@
+{
+	"Name":"ACS_M_EX_02",		
+	"DisplayName":"Example 02", 
+	"Desc":"Creating a new node using existing auxiliary links",
+	"GameVersion":1.177,	
+	"Version":1,			
+	"Author":"iguana, the experienced anon",					
+	"IncreasedDesc":"Initial release"	
+}
