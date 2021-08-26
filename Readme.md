@@ -77,6 +77,6 @@ You have now made a proper mod. It can be activated in the Mod Manager, but it d
   
 For example mods, check out the Examples folder.
 
-For finding out how it works, check out the Information folder.
+For finding out how it works, check out the Information folder, contains resources for code diving.
   
 This repository will remain a work in progress, content will be added over time.
