@@ -24,6 +24,6 @@ In the Esoterica folder, a new file was created, Esoterica_ACS_M_EX.xml, which w
             <li>ZhenMainNode_Lv0_4_2</li>
             <li>ZhenMainNode_Lv0_4_3</li>
         </ZhenNodes>
-    </Esoterica-->
+    </Esoterica>
 </List></Esotericas>
 ```
