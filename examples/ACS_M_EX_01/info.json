@@ -1,0 +1,9 @@
+{
+	"Name":"ACS_M_EX_01",		
+	"DisplayName":"Example 01", 
+	"Desc":"Unlocking nodes with manuals",
+	"GameVersion":1.177,	
+	"Version":1,			
+	"Author":"iguana, the experienced anon",					
+	"IncreasedDesc":"Initial release"	
+}
