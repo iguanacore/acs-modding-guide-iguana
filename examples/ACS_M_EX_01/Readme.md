@@ -1,5 +1,5 @@
 # Unlocking nodes with manuals
-The result for this example is a new manual (or <Esoterica>) that unlocks some unused nodes. It doesn’t introduce ways of acquiring the manual.
+The result for this example is a new manual (or Esoterica) that unlocks some unused nodes. It doesn’t introduce ways of acquiring the manual.
 
 With the created mod, the first step is to replicate the existing directory structure for esoterica. In the mod folder, the following structure was created:
 
