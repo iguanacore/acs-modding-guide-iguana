@@ -1,0 +1,9 @@
+{
+	"Name":"ACS_M_EX_05",		
+	"DisplayName":"Example 05", 
+	"Desc":"Creating a new Diagram using existing nodes",
+	"GameVersion":1.177,	
+	"Version":1,			
+	"Author":"iguana, the experienced anon",					
+	"IncreasedDesc":"Initial release"	
+}
