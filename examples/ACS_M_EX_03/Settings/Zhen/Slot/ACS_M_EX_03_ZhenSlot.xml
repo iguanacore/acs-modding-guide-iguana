@@ -1,0 +1,52 @@
+<ZhenSlotDefs><List>
+	<Def Name="Lv1_Jin" DisplayName="金">
+		<Lv>1</Lv>
+		<SlotType>Lv1_Jin</SlotType> 
+		<Effect>
+		<li Type="SheildBasev" Value="3" />
+		</Effect>
+		<CoreEffect>
+		<li Type="SheildAddp" Value="0.5" />
+		</CoreEffect>
+	</Def>
+    <Def Name="Lv1_Mu" DisplayName="木">
+		<Lv>1</Lv>
+		<SlotType>Lv1_Mu</SlotType>
+		<Effect>
+		<li Type="StabilityBasev" Value="5" />
+		</Effect>
+		<CoreEffect>
+		<li Type="StabilityAddp" Value="0.5" />
+		</CoreEffect>
+	</Def>
+    <Def Name="Lv1_Shui" DisplayName="水">
+		<Lv>1</Lv>
+		<SlotType>Lv1_Shui</SlotType>
+		<Effect>
+		<li Type="FabaoAtkPowerBasev" Value="5" />
+		</Effect>
+		<CoreEffect>
+		<li Type="FabaoAtkPowerAddp" Value="0.5" />
+		</CoreEffect> 
+	</Def>
+    <Def Name="Lv1_Huo" DisplayName="火">
+		<Lv>1</Lv>
+		<SlotType>Lv1_Huo</SlotType> 
+		<Effect>
+		<li Type="MagicPowerBasev" Value="5" />
+		</Effect>
+		<CoreEffect>
+		<li Type="MagicPowerAddp" Value="0.5" />
+		</CoreEffect>
+	</Def>
+    <Def Name="Lv1_Tu" DisplayName="土">
+		<Lv>1</Lv>
+		<SlotType>Lv1_Tu</SlotType> 
+		<Effect>
+		<li Type="StabilityBasev" Value="5" />
+		</Effect>
+		<CoreEffect>
+		<li Type="StabilityAddp" Value="0.5" />
+		</CoreEffect>
+	</Def>
+</List></ZhenSlotDefs>

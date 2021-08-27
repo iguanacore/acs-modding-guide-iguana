@@ -1,0 +1,42 @@
+<ZhenNodeDefs><List>
+	<Def Name="ZhenMainNode_Lv1_custom_5_1_ACS_M_EX" DisplayName="Vacant Elements" Main="1" Base="2"> <!-- No SlotSuits yet --> 
+		<Lv>1</Lv>
+		<Slot>
+			<li SlotName="Lv1_Jin" Pos="0"/>
+			<li SlotName="Lv1_Shui" Pos="1"/>
+            <li SlotName="Lv1_Mu" Pos="2"/>
+            <li SlotName="Lv1_Tu" Pos="3"/>
+            <li SlotName="Lv1_Huo" Pos="4"/>
+		</Slot>
+	</Def>
+    <Def Name="ZhenNode_Lv1_Jin_1_1_ACS_M_EX" DisplayName="Metal" Main="0" Base="2">
+		<Lv>1</Lv>
+		<Slot>
+			<li SlotName="Lv1_Jin" Pos="0"/>
+		</Slot>
+	</Def>
+        <Def Name="ZhenNode_Lv1_Shui_1_1_ACS_M_EX" DisplayName="Water" Main="0" Base="2">
+		<Lv>1</Lv>
+		<Slot>
+			<li SlotName="Lv1_Shui" Pos="0"/>
+		</Slot>
+	</Def>
+        <Def Name="ZhenNode_Lv1_Mu_1_1_ACS_M_EX" DisplayName="Wood" Main="0" Base="2">
+		<Lv>1</Lv>
+		<Slot>
+			<li SlotName="Lv1_Mu" Pos="0"/>
+		</Slot>
+	</Def>
+        <Def Name="ZhenNode_Lv1_Tu_1_1_ACS_M_EX" DisplayName="Earth" Main="0" Base="2">
+		<Lv>1</Lv>
+		<Slot>
+			<li SlotName="Lv1_Tu" Pos="0"/>
+		</Slot>
+	</Def>
+        <Def Name="ZhenNode_Lv1_Huo_1_1_ACS_M_EX" DisplayName="Fire" Main="0" Base="2">
+		<Lv>1</Lv>
+		<Slot>
+			<li SlotName="Lv1_Huo" Pos="0"/>
+		</Slot>
+	</Def>
+</List></ZhenNodeDefs>

@@ -1,0 +1,7 @@
+<Defs><List>
+    <Def Name="Lv1_Jin" DisplayName="金"></Def>
+    <Def Name="Lv1_Mu" DisplayName="木"></Def>
+    <Def Name="Lv1_Shui" DisplayName="水"></Def>
+    <Def Name="Lv1_Huo" DisplayName="火"></Def>
+    <Def Name="Lv1_Tu" DisplayName="土"></Def>
+</List></Defs>

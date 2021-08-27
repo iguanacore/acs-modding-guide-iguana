@@ -1,0 +1,19 @@
+<Esotericas><List>
+    <Esoterica Name="ACS_M_EX_EsotericaZhenFa_3">
+		<DisplayName>Formations: Example 03</DisplayName>
+		<StarLevel>1</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>This is the description</Desc>
+		<EffectDesc>This is the effect, formated.\nUnlocks Pillar: \nVacant Elements\n\nUnlocks Auxiliary: \nMetal\nWater\nWood\nEarth\nFire</EffectDesc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<ZhenNodes>
+			<li>ZhenMainNode_Lv1_custom_5_1_ACS_M_EX</li>
+            <li>ZhenNode_Lv1_Jin_1_1_ACS_M_EX</li>
+            <li>ZhenNode_Lv1_Shui_1_1_ACS_M_EX</li>
+            <li>ZhenNode_Lv1_Mu_1_1_ACS_M_EX</li>
+            <li>ZhenNode_Lv1_Tu_1_1_ACS_M_EX</li>
+            <li>ZhenNode_Lv1_Huo_1_1_ACS_M_EX</li>
+		</ZhenNodes>
+	</Esoterica>
+</List></Esotericas>
