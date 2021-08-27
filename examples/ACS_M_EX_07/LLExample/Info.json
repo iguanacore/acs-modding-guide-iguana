@@ -1,0 +1,8 @@
+﻿{"Name":"LLExample",
+"DisplayName":"LL Example Patch",
+"GameVersion":1.177,"Version":1.0,
+"Desc":"Example patching using Lua loading",
+"Author":"iguana",
+"Tags":["Function","ExcludeRealmsHeaven"],
+"IncreasedDesc":"1.0 : Initial Release",
+"ParentModInfo":["ModLoaderLite,4.1,heihei,ModLoaderLite,1997170546"]}
