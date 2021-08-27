@@ -1,0 +1,11 @@
+<ZhenNodeDefs><List>
+	<Def Name="ZhenMainNode_Lv1_JianC_1_1_ACS_M_EX" DisplayName="Dull Sword Pillar" Main="1" Base="2">
+		<Lv>1</Lv>
+        <SlotSuits>
+            <li>SlotSuit_Jian_1_ACS_M_EX_04</li>
+        </SlotSuits>
+		<Slot>
+			<li SlotName="Lv1_Jian" Pos="0"/>
+		</Slot>
+	</Def>
+</List></ZhenNodeDefs>

@@ -1,0 +1,17 @@
+<Defs><List>
+	<Def Name="SlotSuit_Jian_1_ACS_M_EX_04" DisplayName="Truth of Dull Sword " Base="0">
+		<HideInUi>0</HideInUi>
+        <Conditions>
+            <li A="Lv1_Jian" B="Lv1_Jian" Count="4" />
+        </Conditions>
+		<SuitEffect>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>Artifact Mastery Ability Enhanced</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>FabaoAtkPowerAddv</TypeExtra>
+				<fParam1>5</fParam1>
+			</li>
+		</SuitEffect>
+	</Def>
+</List></Defs>

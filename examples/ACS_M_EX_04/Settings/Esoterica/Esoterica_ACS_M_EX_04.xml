@@ -1,0 +1,14 @@
+<Esotericas><List>
+    <Esoterica Name="ACS_M_EX_EsotericaZhenFa_4">
+		<DisplayName>Formations: Example 04</DisplayName>
+		<StarLevel>1</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>This is the description</Desc>
+		<EffectDesc>This is the effect, formated.\nUnlocks Pillar: \nDull Sword Pillar</EffectDesc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<ZhenNodes>
+			<li>ZhenMainNode_Lv1_JianC_1_1_ACS_M_EX</li>
+		</ZhenNodes>
+	</Esoterica>
+</List></Esotericas>
