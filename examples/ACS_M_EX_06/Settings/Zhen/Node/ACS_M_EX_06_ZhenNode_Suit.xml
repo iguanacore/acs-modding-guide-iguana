@@ -1,0 +1,125 @@
+<ZhenNodeDefs><List>
+    <Def Name="ACS_M_EX_06_weather_0" DisplayName="Weather Controller" Main="1" Base="0">
+		<SlotSuits>
+			<li>ACS_M_EX_06_SlotSuit_weather_1</li>
+		</SlotSuits>
+		<Lv>5</Lv>
+		<Slot>
+            <li SlotName="Lv5_Jin" Pos="0"/>
+			<li SlotName="Lv5_Shui" Pos="1"/>
+			<li SlotName="Lv5_Mu" Pos="2"/>
+			<li SlotName="Lv5_Tu" Pos="3"/>
+			<li SlotName="Lv5_Huo" Pos="4"/>
+		</Slot>
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<GongKindCondition GongKind="Shui"/>
+                        <EsotericaNeed>Magic_PrayForWeather</EsotericaNeed>
+					</li>
+				</Condition>
+				<SuitName>ACS_M_EX_06_weather</SuitName>
+				<V>0</V>
+			</li>
+		</Suit>
+	</Def>
+    <Def Name="ACS_M_EX_06_weather_1" DisplayName="Thunderstorm" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+            <li SlotName="Lv5_Kong" Pos="0"/>
+			<li SlotName="Lv5_Jin" Pos="1"/>
+			<li SlotName="Lv5_Kong" Pos="2"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EsotericaNeed>Magic_PrayForLightningStorm</EsotericaNeed>
+					</li>
+				</Condition>
+				<SuitName>ACS_M_EX_06_weather</SuitName>
+				<V>1</V>
+			</li>
+		</Suit>
+	</Def>
+    <Def Name="ACS_M_EX_06_weather_2" DisplayName="Rainstorm" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+            <li SlotName="Lv5_Kong" Pos="0"/>
+			<li SlotName="Lv5_Shui" Pos="1"/>
+			<li SlotName="Lv5_Kong" Pos="2"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EsotericaNeed>Magic_PrayForRainstorm</EsotericaNeed>
+					</li>
+				</Condition>
+				<SuitName>ACS_M_EX_06_weather</SuitName>
+				<V>2</V>
+			</li>
+		</Suit>
+	</Def>
+    <Def Name="ACS_M_EX_06_weather_3" DisplayName="Toxic Miasma" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+            <li SlotName="Lv5_Mu" Pos="0"/>
+            <li SlotName="Lv5_Kong" Pos="1"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EsotericaNeed>Magic_PrayForMiasma</EsotericaNeed>
+					</li>
+				</Condition>
+				<SuitName>ACS_M_EX_06_weather</SuitName>
+				<V>3</V>
+			</li>
+		</Suit>
+	</Def>
+    <Def Name="ACS_M_EX_06_weather_4" DisplayName="Foehn Wind" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+            <li SlotName="Lv5_Kong" Pos="0"/>
+			<li SlotName="Lv5_Huo" Pos="1"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EsotericaNeed>Magic_PrayForFohn</EsotericaNeed>
+					</li>
+				</Condition>
+				<SuitName>ACS_M_EX_06_weather</SuitName>
+				<V>4</V>
+			</li>
+		</Suit>
+	</Def>
+    <Def Name="ACS_M_EX_06_weather_5" DisplayName="Dust Devil" Main="0" Base="0">
+		<Lv>5</Lv>
+		<Slot>
+            <li SlotName="Lv5_Kong" Pos="0"/>
+			<li SlotName="Lv5_Tu" Pos="1"/>
+			<li SlotName="Lv5_Kong" Pos="2"/>
+		</Slot>
+		
+		<Suit>
+			<li>
+				<Condition>
+					<li>
+						<EsotericaNeed>Magic_PrayForDustStorm</EsotericaNeed>
+					</li>
+				</Condition>
+				<SuitName>ACS_M_EX_06_weather</SuitName>
+				<V>5</V>
+			</li>
+		</Suit>
+	</Def>
+</List></ZhenNodeDefs>

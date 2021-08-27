@@ -1,0 +1,40 @@
+<ZhenSuitDefs><List>
+    <Def Name="ACS_M_EX_06_weather" DisplayName="Weather Clearing Formation">
+		<Description>A formation focusing on clearing the weather, improving cultivation.</Description>
+		<NodeName>
+			<li>Weather Controller</li>
+			<li>Thunderstorm</li>
+			<li>Rainstorm</li>
+			<li>Toxic Miasma</li>
+			<li>Foehn Wind</li>
+            <li>Dust Devil</li>
+		</NodeName>
+		<SuitEffect>
+			<li>
+				<RequireCount>2</RequireCount>
+				<DisplayName></DisplayName>
+				<Description>护御能力额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>SheildAddv</TypeExtra>
+				<fParam1>36</fParam1>
+			</li>
+			<li>
+				<RequireCount>3</RequireCount>
+				<DisplayName></DisplayName>
+				<Description>阵法效率额外提高</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>ReduceCostAddv</TypeExtra>
+				<fParam1>36</fParam1>
+			</li>
+            <!-- The method of adding a new skill is out of scope for this example
+			<li>
+				<RequireCount>6</RequireCount>
+				<DisplayName></DisplayName>
+				<Description>New Skill: Weather Clearing</Description>
+				<SuitType>AddSkill</SuitType>
+				<SParam1>ZhenClearWeather</SParam1>
+			</li>
+            -->
+		</SuitEffect>
+	</Def>
+</List></ZhenSuitDefs>

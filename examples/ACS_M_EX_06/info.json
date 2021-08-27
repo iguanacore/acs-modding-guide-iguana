@@ -1,0 +1,9 @@
+{
+	"Name":"ACS_M_EX_06",		
+	"DisplayName":"Example 06", 
+	"Desc":"Creating a new Ancient Formation",
+	"GameVersion":1.177,	
+	"Version":1,			
+	"Author":"iguana, the experienced anon",					
+	"IncreasedDesc":"Initial release"	
+}

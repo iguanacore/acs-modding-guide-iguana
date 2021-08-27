@@ -1,0 +1,76 @@
+<ZhenSlotDefs><List>
+	<Def Name="Lv5_Jin" DisplayName="金"> <!-- Metal-->
+		<Lv>5</Lv>
+		<SlotType>Lv5_Jin</SlotType> 
+		<Effect>
+		<li Type="ReduceCostBasev" Value="5" />
+		<li Type="SheildBasev" Value="3" />
+		</Effect>
+		<CoreEffect>
+		<li Type="ReduceCostAddp" Value="0.5" />
+		<li Type="SheildAddp" Value="0.5" />
+		</CoreEffect>
+	</Def>
+    <Def Name="Lv5_Mu" DisplayName="木"> <!-- Wood-->
+		<Lv>5</Lv>
+		<SlotType>Lv5_Mu</SlotType>
+		<Effect>
+		<li Type="ReduceCostBasev" Value="5" />
+		<li Type="StabilityBasev" Value="5" />
+		</Effect>
+		<CoreEffect>
+		<li Type="ReduceCostAddp" Value="0.5" />
+		<li Type="StabilityAddp" Value="0.5" />
+		</CoreEffect>
+	</Def>
+    <Def Name="Lv5_Shui" DisplayName="水"> <!-- Water-->
+		<Lv>5</Lv>
+		<SlotType>Lv5_Shui</SlotType>
+		<Effect>
+		<li Type="ReduceCostBasev" Value="5" />
+		<li Type="FabaoAtkPowerBasev" Value="5" />
+		</Effect>
+		<CoreEffect>
+		<li Type="ReduceCostAddp" Value="0.5" />
+		<li Type="FabaoAtkPowerAddp" Value="0.5" />
+		</CoreEffect> 
+	</Def>
+    <Def Name="Lv5_Huo" DisplayName="火"> <!-- Fire-->
+		<Lv>5</Lv>
+		<SlotType>Lv5_Huo</SlotType> 
+		<Effect>
+		<li Type="ReduceCostBasev" Value="5" />
+		<li Type="MagicPowerBasev" Value="5" />
+		</Effect>
+		<CoreEffect>
+		<li Type="ReduceCostAddp" Value="0.5" />
+		<li Type="MagicPowerAddp" Value="0.5" />
+		</CoreEffect>
+	</Def>
+    <Def Name="Lv5_Tu" DisplayName="土"> <!-- Earth-->
+		<Lv>5</Lv>
+		<SlotType>Lv5_Tu</SlotType> 
+		<Effect>
+		<li Type="ReduceCostBasev" Value="5" />
+		<li Type="StabilityBasev" Value="5" />
+		</Effect>
+		<CoreEffect>
+		<li Type="ReduceCostAddp" Value="0.5" />
+		<li Type="StabilityAddp" Value="0.5" />
+		</CoreEffect>
+	</Def>
+	<Def Name="Lv5_Kong" DisplayName="空"> <!-- Sky -->
+		<Lv>5</Lv>
+		<SlotType>Lv5_Kong</SlotType> 
+		<Effect>
+		<li Type="ReduceCostBasev" Value="5" />
+		<li Type="SheildBasev" Value="5" />
+		<li Type="SkillCooldownBasev" Value="5" />
+		</Effect>
+		<CoreEffect>
+		<li Type="ReduceCostAddp" Value="0.5" />
+		<li Type="SheildAddp" Value="0.5" />
+		<li Type="SkillCooldownAddp" Value="0.5" />
+		</CoreEffect>
+	</Def>
+</List></ZhenSlotDefs>

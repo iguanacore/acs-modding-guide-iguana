@@ -1,0 +1,28 @@
+<Defs><List>
+	<Def Name="ACS_M_EX_06_SlotSuit_weather_1" DisplayName="Truth of Clear Weather" Base="0">
+		<HideInUi>1</HideInUi>
+		<SuitEffect>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>Formation Efficiency Increased</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>ReduceCostAddv</TypeExtra>
+				<fParam1>36</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>Operation Ability Enhanced</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>SkillCooldownAddv</TypeExtra>
+				<fParam1>36</fParam1>
+			</li>
+			<li>
+				<DisplayName></DisplayName>
+				<Description>Protection Ability Enhanced</Description>
+				<SuitType>AddZhenProperty</SuitType>
+				<TypeExtra>SheildAddv</TypeExtra>
+				<fParam1>36</fParam1>
+			</li>
+		</SuitEffect>
+	</Def>
+</List></Defs>

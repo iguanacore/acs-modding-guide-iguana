@@ -1,0 +1,16 @@
+<Esotericas><List>
+    <Esoterica Name="ACS_M_EX_EsotericaZhenFa_6">
+		<DisplayName>Formations: Example 06</DisplayName>
+		<StarLevel>1</StarLevel>
+		<Difficulty>1</Difficulty>
+		<Desc>This is the description</Desc>
+		<EffectDesc>This is the effect, formated.\nUnlocks Formation Diagram: \nWeather Clearing Formation<</EffectDesc>
+		<GLevel>Qi</GLevel>
+		<Element>None</Element>
+		<ZhenShapes>
+			<li Name="Weather Clearing Formation">
+			<ShapeInfo>10|9|0|ACS_M_EX_06_weather_0|10|10|2|ACS_M_EX_06_weather_1|11|10|3|ACS_M_EX_06_weather_2|11|9|5|ACS_M_EX_06_weather_3|9|8|0|ACS_M_EX_06_weather_4|9|9|1|ACS_M_EX_06_weather_5</ShapeInfo>
+			<Descript>A formation focusing on clearing the weather, improving cultivation.</Descript>
+			</li>
+		</ZhenShapes>
+</List></Esotericas>
