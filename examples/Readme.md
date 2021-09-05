@@ -10,3 +10,6 @@ Each example exists as a stand-alone mod, unless otherwise specified. The prefix
 * ACS_M_EX_04 - Creating a new Truth of Formations
 * ACS_M_EX_05 - Creating a new Diagram using existing nodes
 * ACS_M_EX_06 - Creating a new Ancient Formation
+
+## Patching
+* ACS_M_EX_07 - VS2019 Example Solution for Harmony Patching

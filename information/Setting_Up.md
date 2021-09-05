@@ -20,7 +20,9 @@ Extract it in your modding directory (not the Mods folder) and use it to open th
 
 ## Unity Assets
 
-For the resources that are compiled into Unity assets, there's existing documentation. [(Link)](https://github.com/imadr/Unity-game-hacking)
+For the resources that are compiled into Unity assets, there's existing documentation for decompiling. [(Link)](https://github.com/imadr/Unity-game-hacking)
+
+While it suggest using uTinyRipper, it no longer works with version 1.2 and up. Use [Asset Studio](https://github.com/Perfare/AssetStudio) instead.
 
 ## UI development
 
