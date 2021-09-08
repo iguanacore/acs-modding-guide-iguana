@@ -10,6 +10,8 @@ Currently explored topics:
 - Modifiers
 - Mod translation
 - Harmony Patching
+- Laws/Gong
+- Perks/Experience
 
 Also contains the translated modding resources originally provided by the developers.
 
