@@ -61,3 +61,32 @@ If you wish to translate a mod done by someone, get their permission if you wish
 7. Verify the work done, test the mod in-game
 
 You have now translated a mod.
+
+# Language Packs
+
+If you wish to localize ACS into a new language, it's possible to do so, there's documentation in the Mods folder (Language Pack).
+
+A new language pack is functionally a mod. Start with a basic structure, create a new folder in the Mods directory, and add populate the `info.json` with the values.
+
+1. Copy the language files from the Example Mod into your newly created mod, either `Example\Language\ChineseSource` or `Example\Language\EnglishSource`. At this point your Mod will contain the `info.json`, and `Language\LanguageSource`, rename the LanguageSource into the language you're converting into, as an example, `RussianSource`.
+2.  Create a Config.xml in the Mod\Language folder, and configure it similarly to the one in the Example mod. An example is below:
+```xml
+<Languages><List>
+    <Language Name="RussianSource">
+        <DisplayName>Russian Language</DisplayName>
+        <Icon>ruflag</Icon>
+        <UIMode>1</UIMode>
+        <Desc>Russian Translation</Desc>
+        <SpaceConnect>true</SpaceConnect>
+        <FamilyPostposition>true</FamilyPostposition>
+</List></Languages>
+```
+The name in the xml and the name of the folder in Language must be identical.
+3. Replace the Chinese\English strings in all the files. For the dictionaries, change only the Values and not Keys.
+4. Test it. If no errors exist, publish it.
+
+Additional remarks from the original file:
+
+- `CodeDictionary.txt` and `MapStoryDictionary.txt` must be UTF-8 encoded.
+- The reincarnator file will be overwritten, please customize it for different languages.
+- For more details please e-mail : `MOD@gsqstudio.com`
