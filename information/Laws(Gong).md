@@ -59,13 +59,15 @@ For Xiandao Gongs, there are two properties specific for them.
 
 List of Skills ingame:
 
-- `Chumo` - Exorcism
-- `Jiangdao` - Preach
-- `Guanding` - Empower
-- `Ciqi` - Bestow
-- `Kaiguang` - Bless
-- `Cuiti` - Remold
-- `Bihu` - Protect
+Skill|Miracle at the statue|Description of the miracle
+-|-|-
+`Chumo`|Exorcise|Costs 49 Incense. The master will come down to earth to fight for one day.
+`Jiangdao`|Land|Costs 49 Incense. The master will come down to earth to give a lecture for one day. Inner disciples will attend the lecture standing or sitting on nearby cushions.
+`Guanding`|Enlighten|Costs 9 Incense. Enlightens one disciple by immediately granting them 50k Inspiration XP.
+`Ciqi`|Bestow|Costs 25 Incense. Gain a gift from the master.
+`Kaiguang`|Consecrate|Costs 25 Incense. Increases an item's tier by 1-4 levels, but cannot raise an item above tier 12.
+`Cuiti`|Remold|Costs 25 Incense. Cures all illnesses, restores all organs, and improves the five senses for an outer disciple.
+`Bihu`|Protect|Costs 9 Incense. Clears all weather effects and grants protection.
 
 ## Shendao Gong specialities
 
