@@ -66,5 +66,3 @@ Until someone reaches understanding of how the lines are formed, your best bet i
 `<Line>0,0,0,0,1,0,2,0</Line>`
 
 The existing Trees also use empty nodes that consist of just Lines, in order to make more complex shapes.
-
-Your best bet is to see what the existing Tree Nodes look like and imitate them.

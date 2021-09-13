@@ -321,7 +321,10 @@ An example condition is below:
 - `<EquipmentNeed>` - Item required for activation. Mostly used with Pillars and Diagrams
 - `<EsotericaNeed>` - Manuals learned required for activation
 - `<SkillNeed>` - Minimum Skill level required
-- `<GongKindCondition>` - should set a requirement for the element or name of the law of the cultivator, but as of the current version, it’s not functional
+- `<GongKindCondition>` - should set a requirement for the element or name of the law of the cultivator, but it doesn't work that way
+
+To set a certain Gong requirement or a specific element, use `<GongNeed>` instead of `<GongKindCondition>`.
+
 You can have multiple `<li>` under a single condition, but you can’t stack them into each other. This is why the node above doesn’t require the diagram for activation.
 
 ## General concepts
