@@ -61,8 +61,32 @@ The `<Line>` property is used to draw lines between the nodes. It consists of a 
 
 m_B0, m_B1, m_B2, m_B3, m_S0, m_S1, m_S2, m_S3
 
-Until someone reaches understanding of how the lines are formed, your best bet is to keep the Trees simple and use known layouts. For example, **Arrow Below:**
+The values can be split into two, m_B# and m_S#.
 
-`<Line>0,0,0,0,1,0,2,0</Line>`
+* `m_B#` values are for drawing Lines at the position of the Node
+* `m_S#` values are for drawing Lines below the position of the Node
 
-The existing Trees also use empty nodes that consist of just Lines, in order to make more complex shapes.
+The order goes clockwise from the top, with m_B0 being at the top, m_B3 being to the left, and so on. An image with the visual structure:
+
+![Example Structure](image_resources/Inspiration_Tree_Node_lines.png)
+
+The entries have three possible values:
+* `0` - No Line drawn
+* `1` - Simple Line drawn
+* `2` - Line with Arrow pointing outward from Position
+
+A Node can also consist of **only** the Line attribute. When looking at Vanilla Law Trees, this can be a common occurance.
+
+### Common Examples
+
+**Arrow Below**
+* `<Line>0,0,0,0,1,0,2,0</Line>`
+
+**Arrow below that split in three** - (will need other nodes to be "completed")
+* `<Line>0,0,0,0,1,1,2,1</Line>`
+
+**Arrow below across a row**
+* `<Line>1,0,1,0,1,0,2,0</Line>`
+
+**Arrow left across a colum**
+* `<Line>0,1,0,2,0,0,0,0</Line>`
