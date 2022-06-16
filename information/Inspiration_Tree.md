@@ -68,7 +68,7 @@ The values can be split into two, m_B# and m_S#.
 
 The order goes clockwise from the top, with m_B0 being at the top, m_B3 being to the left, and so on. An image with the visual structure:
 
-![Example Structure](../image_resources/Inspiration_Tree_Node_Lines.png)
+![Example Structure](image_resources/Inspiration_Tree_Node_Lines.png)
 
 The entries have three possible values:
 * `0` - No Line drawn
