@@ -1,0 +1,13 @@
+<Esotericas><List>
+    <Esoterica Name="ACS_M_EX_08_Gong_1_Esoterica_1">
+		<DisplayName>Custom MQ Manual</DisplayName>
+		<StarLevel>1</StarLevel>
+		<Difficulty>3</Difficulty>
+		<GLevel>Dan1</GLevel>
+		<Desc>Add some Qi on them.</Desc>
+		<Element>Shui</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]Does the Following\nIncreases Max Qi[/color][/size]</EffectDesc>
+		<Modifier>ACS_M_EX_08_Gong_1_Esoterica_1</Modifier>	
+	</Esoterica>
+</List></Esotericas>

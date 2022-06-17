@@ -1,0 +1,72 @@
+<Gongs><List>
+	<Gong Name="ACS_M_EX_08_Gong_1_Shui">
+		<DisplayName>First Law</DisplayName>
+		<Desc>Description of the Law, a good place to put the Lore and the focus of it.</Desc>
+		<SelectDesc>Description on Selection. Final warning towards the player, to make sure that they really want to select this Law.</SelectDesc>
+		<FiveBaseNeed>-1, 7, 5, 6, -1</FiveBaseNeed>
+		<SkillSetName></SkillSetName>
+		<ElementKind>Shui</ElementKind>
+		<Skill>
+			<li>jiangdao</li>
+			<li>ciqi</li>
+			<li>guanding</li>
+		</Skill>
+		<Stages>
+			<Stage Name="Stage1" Level="3">
+				<DisplayName>Qi Shaping</DisplayName>
+				<Desc>The first stage, ending with a regular Chance Breakthrough.</Desc>
+				<Value>1800</Value>
+				<Necks>
+					<Neck Location="1" Kind="Chance">
+						<DisplayName>End of Qi Shaping</DisplayName>
+						<Desc>Chance Breakthrough.</Desc>
+						<CostTime>200</CostTime>
+						<SuccessChange>1</SuccessChange>
+						<AddModifier>Gong_Qi</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage2" Level="6">
+				<DisplayName>Core Shaping</DisplayName>
+				<Desc>The second stage, ending with a Golden Core Forming Breakthrough.</Desc>
+				<Value>4000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Gold">
+						<DisplayName>End of Core Shaping</DisplayName>
+						<Desc>Golden Core Forming Breakthrough.</Desc>
+						<AddModifier>Gong_Gold</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>	
+			
+			<Stage Name="Stage3" Level="9">
+				<DisplayName>Golden Core</DisplayName>
+				<Desc>The third stage, ending with a Void Breakthrough.</Desc>
+				<Value>300000</Value>
+				<Necks>
+					<Neck Location="1" Kind="Work">
+						<DisplayName>End of Golden Core</DisplayName>
+						<Desc>Void Breakthrough.</Desc>
+						<AddModifier>Gong_Thunder2</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+			
+			<Stage Name="Stage4" Level="12">
+				<DisplayName>Primordial Spirit</DisplayName>
+				<Desc>The final stage, ending with a Heavenly Tribulation.</Desc>
+				<Value>6560000</Value>
+				<Necks>
+					<Neck Location="1" Kind="God">
+						<DisplayName>End of Primordial Spirit</DisplayName>
+						<Desc>Heavenly Tribulation.</Desc>
+						<ThunderValue>520000</ThunderValue>
+						<NeckCountdown>3000</NeckCountdown>
+						<AddModifier>Gong_Thunder3</AddModifier>
+					</Neck>
+				</Necks>
+			</Stage>
+		</Stages>
+	</Gong>
+</List></Gongs>

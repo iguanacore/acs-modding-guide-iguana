@@ -1,0 +1,9 @@
+{
+	"Name":"ACS_M_EX_08",		
+	"DisplayName":"Example 08", 
+	"Desc":"Three Custom Laws, without full implementation. They can be used with ModModifier or similar tools, but no way of getting them in usual ways (MapStories, Items, etc.).",
+	"GameVersion":1.177,	
+	"Version":1,			
+	"Author":"iguana, the experienced anon",					
+	"IncreasedDesc":"Initial release"	
+}

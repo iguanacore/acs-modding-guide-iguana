@@ -1,0 +1,42 @@
+<SkillTree><List>	
+	<Node Name="ACS_M_EX_08_Gong_1_Shui_a0" Gong="ACS_M_EX_08_Gong_1_Shui">
+		<Esoterica>Magic_MakeHorse_1</Esoterica>
+		<DisplayName>Make me a Horse</DisplayName>
+		<Level>Qi</Level>
+		<Index>0</Index>
+        <Line>0,0,0,0,1,0,2,0</Line>
+	</Node>
+    <Node Name="ACS_M_EX_08_Gong_1_Shui_b0" Gong="ACS_M_EX_08_Gong_1_Shui">
+		<Esoterica>Magic_BuidPuppet</Esoterica>
+		<DisplayName>Make me a Worker</DisplayName>
+        <PreUnit>
+		<li>ACS_M_EX_08_Gong_1_Shui_a0</li>
+		</PreUnit>
+		<Level>Dan1</Level>
+		<Index>0</Index>
+	</Node>
+    <Node Name="ACS_M_EX_08_Gong_1_Shui_b5" Gong="ACS_M_EX_08_Gong_1_Shui">
+		<Esoterica>ACS_M_EX_08_Gong_1_Esoterica_1</Esoterica>
+		<DisplayName>Custom MQ Manual</DisplayName>
+		<Level>Dan1</Level>
+		<Index>5</Index>
+	</Node>
+	<Node Name="ACS_M_EX_08_Gong_1_Shui_1_e4" Gong="ACS_M_EX_08_Gong_1_Shui">
+		<Esoterica>God2_Dan</Esoterica>
+		<DisplayName>Eureka Pill</DisplayName>
+		<Level>God2</Level>
+		<Index>4</Index>
+		<Skills>
+			<li Name="Medicine" Level="20"/>
+		</Skills>
+	</Node>
+	<Node Name="ACS_M_EX_08_Gong_1_Shui_1_e8" Gong="ACS_M_EX_08_Gong_1_Shui">
+		<Esoterica>God2_Fabao</Esoterica>
+		<DisplayName>Taoist Artifact</DisplayName>
+		<Level>God2</Level>
+		<Index>8</Index>
+		<Skills>
+			<li Name="Manual" Level="20"/>
+		</Skills>
+	</Node>
+</List></SkillTree>

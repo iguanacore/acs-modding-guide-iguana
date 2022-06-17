@@ -11,6 +11,7 @@ Currently explored topics:
 - Mod translation
 - Harmony Patching
 - Laws/Gong
+  - Inspiration Tree
 - Perks/Experience
 
 Also contains the translated modding resources originally provided by the developers.

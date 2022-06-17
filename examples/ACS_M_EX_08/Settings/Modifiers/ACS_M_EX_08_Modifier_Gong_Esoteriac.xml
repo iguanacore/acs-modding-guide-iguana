@@ -1,0 +1,11 @@
+<ModifierDefs><List>
+	<Modifier Name="ACS_M_EX_08_Gong_1_Esoterica_1" Type="Normal">
+		<DisplayName>ACS_M_EX_08_Gong_1_Esoterica_1</DisplayName>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="1000"/>
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>

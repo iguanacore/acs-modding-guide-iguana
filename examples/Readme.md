@@ -13,3 +13,6 @@ Each example exists as a stand-alone mod, unless otherwise specified. The prefix
 
 ## Patching
 * ACS_M_EX_07 - VS2019 Example Solution for Harmony Patching
+
+## Custom Laws
+* ACS_M_EX_08 - Three Custom Laws, **without** full implementation
