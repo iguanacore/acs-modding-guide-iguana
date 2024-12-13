@@ -13,6 +13,7 @@ Currently explored topics:
 - Laws/Gong
   - Inspiration Tree
 - Perks/Experience
+- Blueprints
 
 Also contains the translated modding resources originally provided by the developers.
 

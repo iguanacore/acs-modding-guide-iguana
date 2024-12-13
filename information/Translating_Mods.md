@@ -82,6 +82,7 @@ A new language pack is functionally a mod. Start with a basic structure, create 
 </List></Languages>
 ```
 The name in the xml and the name of the folder in Language must be identical.
+
 3. Replace the Chinese\English strings in all the files. For the dictionaries, change only the Values and not Keys.
 4. Test it. If no errors exist, publish it.
 

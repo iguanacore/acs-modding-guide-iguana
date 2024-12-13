@@ -19,7 +19,7 @@ For reincarnators, a short guide for making reincarnators on Steam: [LINK](https
 
 For custom items, a few posts about their capabilities, any questions about them can be directed to the author: [LINK](https://arch.b4k.co/vg/thread/345895292/#345919017)
 
-For blueprints, it’s not that different from the Land of Illusions or even basic gameplay.
+For blueprints, it’s not that different from the Land of Illusions or even basic gameplay. [Additional blueprint related information can be found here.](information/Blueprints.md)
 
 # General Conceptions
 The Readme_EN.txt in the Mods folder is a good resource to get started. Go over it. Done?
@@ -27,9 +27,9 @@ Things to remember out of that:
 
 Modifications are loaded at start. The most basic examples are items created with the Realms Palace content editor. Even if you made them to test things out and didn’t finish with them, they are still loaded. Be careful with them. Clearing up your saves\CreateItems folder is useful to avoid having some “test” items spawning during a run.
 
-XML files can be added freely. The program will go through all the directories, including sub directories. You should follow the logic of the original directories, you can face issues with loading if you don’t follow it. Keep <ThingDefs> in ThingDef, keep formations in Zhen, and so on.
+XML files can be added freely. The program will go through all the directories, including sub directories. You should follow the logic of the original directories, you can face issues with loading if you don’t follow it. Keep `<ThingDefs>` in ThingDef, keep formations in Zhen, and so on.
   
-Def with same names will be overwritten according to loading order. If you plan on changing any of the existing Defs (things contained in a <Def>), always use mods. If it’s a base definition that is used as a parent, be prepared for the changes to be used by all the children as well. If you don’t know what you’re doing, this is an easy way to screw things up. Using prefixes for your custom content can reduce the conflicts for Defs.
+Def with same names will be overwritten according to loading order. If you plan on changing any of the existing Defs (things contained in a `<Def>`), always use mods. If it’s a base definition that is used as a parent, be prepared for the changes to be used by all the children as well. If you don’t know what you’re doing, this is an easy way to screw things up. Using prefixes for your custom content can reduce the conflicts for Defs.
   
 Please solve same ID problems of txt file which use number as ID on your own. One line will be overwritten by later lines with the same ID. If you plan on adding something, use unique IDs. If you plan on changing something, use the same ID as the thing you’re changing. Using multiple mods can bring ID conflicts, no reasonable way around that (yet).
   
