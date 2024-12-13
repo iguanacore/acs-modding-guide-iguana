@@ -2,6 +2,8 @@
 
 This document is for Blueprints, as far as the technical details are concerned. Where the files are located and what they consist of, not how to create one ingame.
 
+For an example mod dealing with external blueprints, see [ACS__EX_09](../examples/ACS_M_EX_09/Readme.md)
+
 ## Structure and location of a blueprint
 
 Blueprints can be categorized under user created content, and locally created blueprints are found under the Saves directory within the installation path.
